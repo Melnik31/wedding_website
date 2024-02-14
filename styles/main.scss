@@ -1,0 +1,139 @@
+@import 'config';
+@import url('https://fonts.googleapis.com/css2?family=Viaoda+Libre&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+h1{
+    font-size: 1.8rem;
+    font-weight: normal;
+    font-family: 'Viaoda Libre';
+    text-transform: uppercase;
+}
+h2{
+    font-size: 1.6rem;
+    font-family: 'Viaoda Libre';
+    font-weight: normal;
+}
+h3{
+    font-size: 1.06rem;
+    font-family: 'Montserrat';
+}
+p{
+    font-size: 1.06rem;
+    font-family: 'Montserrat';
+}
+
+nav{
+    
+    height: 3.12rem;
+    text-align: center;
+    background: $secondary;
+    p{
+        font-size: 0.75rem;
+        color: $white;
+        padding-top: 1rem ;
+    }
+}
+body{
+    position: relative;
+}
+main{
+    width: 90%;
+    margin: 0 auto;
+
+}
+
+.offer{
+    margin: 1.9rem 0 1.9rem;
+    text-align: center;
+    letter-spacing: 6px;
+    .left_leaf{
+        position: absolute;
+        left: 0;
+        top: 3rem;
+    }
+    .leaf{
+        top: 8rem;
+        height: 9rem;
+        z-index: -9;
+    }
+    p{
+        font-family: 'Viaoda Libre';
+        letter-spacing: normal;
+    }
+}
+
+.offer_img{
+    border-radius: 20px;
+}
+
+.offer_wrap{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: black;
+
+}
+
+/* Countdown */ 
+
+.count_wrap{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 3.75rem;
+    h1{
+        color: $secondary;
+    }
+}
+
+.countdown{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 1.8rem;
+    color: $main;
+    h2{
+        font-size: 3.13rem;
+        font-family: 'Montserrat';
+    }
+    h3{
+        text-transform: uppercase;
+        font-size: 0.75rem;
+    }
+}
+.time{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  
+}
+
+/* About srction */
+.about{
+    width: 85%;
+    .title{
+        color: $secondary;
+        margin: 3.75rem 0 0.9rem;
+        text-transform: uppercase;
+    }
+}
+
+.about_text{
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+}
+
+.leaf{
+    position: absolute;
+    right: 0;
+    top: 60rem;
+    width: 165px;
+}
