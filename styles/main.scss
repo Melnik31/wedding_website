@@ -43,7 +43,7 @@ body{
     position: relative;
 }
 main{
-    width: 90%;
+    width: 95%;
     margin: 0 auto;
 
 }
@@ -57,17 +57,19 @@ main{
         left: 0;
         top: 3rem;
     }
-    .leaf{
-        top: 8rem;
-        height: 9rem;
-        z-index: -9;
-    }
+    
     p{
         font-family: 'Viaoda Libre';
         letter-spacing: normal;
     }
 }
-
+.leaf_right{
+    position: absolute;
+    top: 7.5rem;
+    right: 0;
+    height: 10rem;
+    z-index: -9;
+}
 .offer_img{
     border-radius: 20px;
 }
@@ -89,6 +91,7 @@ main{
     margin-top: 3.75rem;
     h1{
         color: $secondary;
+        padding-bottom: 0.9rem;
     }
 }
 
@@ -136,4 +139,70 @@ main{
     right: 0;
     top: 60rem;
     width: 165px;
+}
+
+
+/* Time and place */
+.time_place{
+   text-align: center;
+   background: $secondary;
+   color: $white;
+   border-radius: 1.25rem;
+   .text_l{
+    font-family: 'Viaoda Libre';
+    text-transform: uppercase;
+   }
+   .title{
+       margin: 2.5rem 0;
+       padding-top: 2.5rem;
+   }
+}
+.flex_wrap{
+    width: 85%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.flex_1{
+    display: flex;
+    flex-direction: row;
+    gap: 76px;
+    align-items: center;
+    text-align: left;
+    .bold{
+        text-transform: uppercase;
+        line-height: .6;
+        font-size: 30px;
+        span{
+            font-size: 13px;
+        }
+    }
+}
+.flex_2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    text-align: left;
+    gap: 100px;
+    padding-bottom: 4.7rem;
+}
+.bottom{
+    padding-bottom: 1.875rem;
+}
+
+
+/* Program */
+
+.program{
+    
+}
+.flex_block{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+   gap: 15px;
+   
 }
