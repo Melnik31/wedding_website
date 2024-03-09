@@ -141,8 +141,9 @@ main {
 .leaf {
   position: absolute;
   right: 0;
-  top: 60rem;
+  top: 62rem;
   width: 165px;
+  z-index: -9;
 }
 
 /* Time and place */
@@ -162,7 +163,7 @@ main {
 }
 
 .flex_wrap {
-  width: 85%;
+  width: 80%;
   margin: 0 auto;
   display: flex;
   flex-direction: column;
@@ -197,12 +198,84 @@ main {
 
 .bottom {
   padding-bottom: 1.875rem;
+  font-size: 0.6rem;
 }
 
 /* Program */
+.program {
+  margin: 3.75rem 0 3.75rem;
+  text-align: center;
+}
+
 .flex_block {
   display: flex;
   flex-direction: row;
   align-items: center;
+  text-align: left;
+  padding-top: 0.9rem;
   gap: 15px;
+}
+
+/* Dress code */
+.dress_code {
+  text-align: center;
+}
+.dress_code .flex_wrap {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  align-items: start;
+  gap: 0.9rem;
+  margin: 0;
+  padding-top: 0.9rem;
+}
+
+.colors_wrap {
+  display: flex;
+  flex-direction: row;
+}
+.colors_wrap .color {
+  width: 3.75rem;
+  height: 3.75rem;
+  border-radius: 0.9rem;
+}
+.colors_wrap .l_margin {
+  margin-left: -8px;
+}
+.colors_wrap .gr {
+  background-color: #103025;
+}
+.colors_wrap .l_gr {
+  background-color: #718878;
+}
+.colors_wrap .cr {
+  background-color: #E9D9C9;
+}
+.colors_wrap .br {
+  background-color: #967860;
+}
+.colors_wrap .wh {
+  background-color: #FFFFFF;
+  border: 0.1px solid #DDD;
+}
+.colors_wrap .bl {
+  background-color: #000;
+}
+
+.gray_t {
+  font-size: 0.8rem;
+  text-align: left;
+  color: rgba(16, 48, 37, 0.4588235294);
+}
+
+/* Form */
+.form {
+  margin-top: 3.75rem;
+}
+.form .flex_wrap {
+  gap: 0.9rem;
+  text-align: center;
+}
+.form .text span {
+  font-family: "Viaoda Libre";
 }/*# sourceMappingURL=main.css.map */
