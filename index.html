@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles/main.css">
     <title>Anastasia & Daniil</title>
+    <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
 </head>
 <body>
     <nav>
@@ -19,7 +20,7 @@
             </div>
         </div>
         <img src="img/leaf_offer.png" alt="" class="leaf_right">
-        <img src="img/offer_img.jpg" alt="" class="offer_img">
+        <img src="img/main_img.jpg" alt="" class="offer_img">
         
         <div class="count_wrap">
             <h1 class="title">До свадьбы осталось:</h1>
@@ -59,7 +60,7 @@
             <img src="/img/leaf.png" alt="" class="leaf">
 
         </section>
-        <div class="time_place">
+        <section class="time_place">
             <h1 class="title">время и место</h1>
             <div class="flex_wrap">
                 <div class="flex_1">
@@ -68,21 +69,18 @@
                 </div>
                 <div class="flex_2">
                     <p class="text_l">где?</p>
-                    <p class="text">Загородный комплекс 
-                    “Дом охотника 
-                    и рыбака”
+                    <p class="text">Загородный комплекс<br> “Дом охотника и рыбака”
                     </p>
                 </div>
             </div>
             <p class="text_l bottom">aNASTASiya & dANIla</p>
-        </div>
+        </section>
         <section class="program">
             <h1 class="title">Программа дня</h1>
             <div class="flex_block">
                 <p class="prog_text">16:00</p>
                 <img src="img/line.svg" alt="line">
-                <p class="prog_text">Сбор гостей в Загородном комплексе<br>
-                    “Дом охотника и рыбака”
+                <p class="prog_text">Сбор гостей в Загородном комплексе<br> “Дом охотника и рыбака”
                 </p>
             </div>
             <div class="flex_block">
@@ -105,6 +103,58 @@
                 <img src="img/line.svg" alt="line">
                 <p class="prog_text">Салют</p>
             </div>
+        </section>
+        <section class="dress_code">
+            <h1 class="title">Дресс-код</h1>
+            <div class="flex_wrap">
+                <p class="text">
+                    Мы очень старались сделать наш 
+                    праздник красивым и будем 
+                    рады, если в своих нарядах вы 
+                    поддержите цветовую гамму 
+                    нашей свадьбы 
+                </p>
+                <div class="colors_wrap">
+                    <div class="color gr"></div>
+                    <div class="color l_gr l_margin"></div>
+                    <div class="color cr l_margin"></div>
+                    <div class="color br l_margin"></div>
+                    <div class="color wh l_margin"></div>
+                    <div class="color bl l_margin"></div>
+                </div>
+            </div>
+            <p class="text gray_t">(а также другие пастельные цвета)</p>
+        </section>
+        <section class="form">
+            <div class="flex_wrap">
+                <h1 class="title">Анкета гостя</h1>
+                <p class="text">
+                Ваши ответы на вопросы очень 
+                помогут нам при организации 
+                свадьбы. 
+                </p>
+            <p class="text">Будем ждать ответ до <span>20.05.2024</span></p>
+            </div>
+            <form action="" id="guests_form">
+                <label for="name">Ваше имя и фамилия</label>
+                <input type="text" name="name" id="name" placeholder="Имя и фамилия" required />
+                <label for="food" id="food_label">Что вы предпочитаете на горячее?
+                    <br>
+                    <span class="gray">(один вариант ответа)</span>
+                </label>
+                <label><input type="radio" name="food" id="food" value="meat">Мясо</label>
+                <label><input type="radio" name="food" id="food" value="fish">Рыба</label>
+                <label for="food" id="food_label">Что вы предпочитаете из напитков?
+                    <br>
+                    <span class="gray">(возможно отметить несколько вариантов)</span>
+                    <label><input type="checkbox" name="vodka" id="vodka" value="yes">Водка</label>
+                    <label><input type="checkbox" name="koniak" id="koniak" value="yes">Коньяк </label>
+                    <label><input type="checkbox" name="whisky" id="whisky" value="yes">Виски</label>
+                    <label><input type="checkbox" name="white" id="white" value="yes">Вино белое</label>
+                    <label><input type="checkbox" name="red" id="red" value="yes">Вино красное</label>
+                </label>
+                <button type="button" onclick="SubForm()">Submit</button>
+            </form>
         </section>
     </main>
 

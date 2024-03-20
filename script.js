@@ -24,3 +24,20 @@ const update = setInterval(function(){
 
     console.log(days, hrs, minutes, seconds);
 }, 1000)
+
+
+/* Form submission */
+function SubForm (){
+    $.ajax({
+        url:'https://api.apispreadsheets.com/data/c1U4FAff9Lzos7MK/',
+        type:'post',
+        data:$("#guests_form").serializeArray(),
+        success: function(){
+          alert("Form Data Submitted :)")
+        },
+        error: function(){
+          alert("There was an error :(")
+        }
+    });
+    console.log("works")
+}

@@ -271,6 +271,8 @@ main{
 
 .form{
     margin-top: 3.75rem;
+    font-family: 'Montserrat';
+    font-size: 1.06rem;
     .flex_wrap{
         gap: .9rem;
         text-align: center;
@@ -280,4 +282,34 @@ main{
             font-family: 'Viaoda Libre';
         }
     }
+    label{
+        display: block;
+        span{
+            color: #1030254d;
+            font-size: 0.75rem;
+        }
+    }
+}
+
+form{
+   display: flex;
+   flex-direction: column;
+}
+#name{
+    &::placeholder{
+        font-family: 'Montserrat';
+        color: #1030254d;
+    }
+    border: none;
+    border-bottom: 1px solid $black;
+}
+input{
+    margin-bottom: 0.8rem;
+}
+#food_label{
+    input{
+        margin-right: 0.3rem;
+        border-radius: 0;
+    }
+
 }

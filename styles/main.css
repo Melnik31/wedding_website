@@ -271,6 +271,8 @@ main {
 /* Form */
 .form {
   margin-top: 3.75rem;
+  font-family: "Montserrat";
+  font-size: 1.06rem;
 }
 .form .flex_wrap {
   gap: 0.9rem;
@@ -278,4 +280,38 @@ main {
 }
 .form .text span {
   font-family: "Viaoda Libre";
+}
+.form label {
+  display: block;
+}
+.form label span {
+  color: rgba(16, 48, 37, 0.3019607843);
+  font-size: 0.75rem;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+#name {
+  border: none;
+  border-bottom: 1px solid #000;
+}
+#name::-moz-placeholder {
+  font-family: "Montserrat";
+  color: rgba(16, 48, 37, 0.3019607843);
+}
+#name::placeholder {
+  font-family: "Montserrat";
+  color: rgba(16, 48, 37, 0.3019607843);
+}
+
+input {
+  margin-bottom: 0.8rem;
+}
+
+#food_label input {
+  margin-right: 0.3rem;
+  border-radius: 0;
 }/*# sourceMappingURL=main.css.map */
