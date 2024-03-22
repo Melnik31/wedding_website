@@ -23,7 +23,7 @@
         <img src="img/main_img.jpg" alt="" class="offer_img">
         
         <div class="count_wrap">
-            <h1 class="title">До свадьбы осталось:</h1>
+            <h2 class="title">До свадьбы осталось:</h2>
             <div class="countdown">
                 <div class="time">
                     <h2 id="days"></h2>
@@ -44,7 +44,7 @@
             </div>
         </div>
         <section class="about">
-            <h2 class="title">Дорогие друзья<br> и родные  </h1>
+            <h2 class="title">Дорогие друзья<br> и родные  </h2>
             <div class="about_text">
                 <p>
                     Вы знаете, что совсем скоро наступит самый важный день<br> 
@@ -76,7 +76,7 @@
             <p class="text_l bottom">aNASTASiya & dANIla</p>
         </section>
         <section class="program">
-            <h1 class="title">Программа дня</h1>
+            <h2 class="title">Программа дня</h2>
             <div class="flex_block">
                 <p class="prog_text">16:00</p>
                 <img src="img/line.svg" alt="line">
@@ -127,7 +127,7 @@
         </section>
         <section class="form">
             <div class="flex_wrap">
-                <h1 class="title">Анкета гостя</h1>
+                <h2 class="title">Анкета гостя</h2>
                 <p class="text">
                 Ваши ответы на вопросы очень 
                 помогут нам при организации 
@@ -136,15 +136,15 @@
             <p class="text">Будем ждать ответ до <span>20.05.2024</span></p>
             </div>
             <form action="" id="guests_form">
-                <label for="name">Ваше имя и фамилия</label>
+                <label for="name" class="label">Ваше имя и фамилия</label>
                 <input type="text" name="name" id="name" placeholder="Имя и фамилия" required />
-                <label for="food" id="food_label">Что вы предпочитаете на горячее?
+                <label for="food" id="food_label" class="label">Что вы предпочитаете на горячее?
                     <br>
                     <span class="gray">(один вариант ответа)</span>
                 </label>
                 <label><input type="radio" name="food" id="food" value="meat">Мясо</label>
                 <label><input type="radio" name="food" id="food" value="fish">Рыба</label>
-                <label for="food" id="food_label">Что вы предпочитаете из напитков?
+                <label for="food" id="food_label" class="label">Что вы предпочитаете из напитков?
                     <br>
                     <span class="gray">(возможно отметить несколько вариантов)</span>
                     <label><input type="checkbox" name="vodka" id="vodka" value="yes">Водка</label>
@@ -153,11 +153,32 @@
                     <label><input type="checkbox" name="white" id="white" value="yes">Вино белое</label>
                     <label><input type="checkbox" name="red" id="red" value="yes">Вино красное</label>
                 </label>
-                <button type="button" onclick="SubForm()">Submit</button>
+                <button type="button" onclick="SubForm()">Отправить<img src="img/sub_vector.svg" alt=""></button>
             </form>
         </section>
+        <section class="info">
+            <h2 class="title">Важная информация</h2>
+            <p class="text">
+                По всем возникающим вопросам
+                насчет торжества или о дне
+                свадьбы, просьба обращаться к 
+                нашей прекрасной <span>невесте</span>
+            </p>
+            <a href="tel:+ 375 (29) 217-17-46" class="tel">+ 375 (29) 217-17-46</a>
+        </section>
+        <footer>
+            <div class="footer_img">
+                <img src="img/photo+shadow.jpg" alt="see yo" >
+                <h2 class="title footer_title">
+                    До скорой встречи! 
+                    <br>
+                    01.05.2024
+                    <p class="footer_text">aNASTASIyA & dANIla</p>
+                </h2>
+            </div>
+        </footer>
     </main>
 
     <script src="script.js"></script>
 </body>
-</html>
+</html> 

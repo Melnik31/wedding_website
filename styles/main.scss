@@ -18,6 +18,7 @@ h2{
     font-size: 1.6rem;
     font-family: 'Viaoda Libre';
     font-weight: normal;
+    text-transform: uppercase;
 }
 h3{
     font-size: 1.06rem;
@@ -127,7 +128,6 @@ main{
     .title{
         color: $secondary;
         margin: 3.75rem 0 0.9rem;
-        text-transform: uppercase;
     }
 }
 
@@ -289,8 +289,22 @@ main{
             font-size: 0.75rem;
         }
     }
+    button{
+        background-color: $secondary;
+        border: none;
+        color: $white;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 5px;
+        padding: 1.06rem 0 ;
+        border-radius: 0.6rem;
+    }
 }
-
+.label{
+    margin:1.8rem 0 0.9rem;
+}
 form{
    display: flex;
    flex-direction: column;
@@ -305,11 +319,46 @@ form{
 }
 input{
     margin-bottom: 0.8rem;
+    margin-right: 0.3rem;
 }
-#food_label{
-    input{
-        margin-right: 0.3rem;
-        border-radius: 0;
-    }
 
+/* Info */
+.info{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    width: 85%;
+    margin: 3.75rem auto;
+    gap: 0.9rem;
+    .tel{
+        text-decoration: none;
+        font-size: 1.06rem;
+        color: $black;
+        font-family: 'Viaoda Libre';
+        text-decoration: underline;
+    }
+}
+
+/* Footer */
+.footer_img{
+    position: relative;
+    margin-bottom: 3.25rem;
+}
+.footer_title{
+    position: absolute;
+    color: $white;
+    text-align: center;
+    bottom: 2rem;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 6.25rem;
+    .footer_text{
+        font-family: 'Viaoda Libre';
+        text-transform: uppercase;   
+        font-size: 0.6rem;
+    }
 }
