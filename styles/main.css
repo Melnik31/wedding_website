@@ -347,9 +347,14 @@ input {
 }
 
 /* Footer */
+footer {
+  margin: 0 auto 3.25rem;
+}
+
 .footer_img {
   position: relative;
-  margin: 0 auto 3.25rem;
+  display: flex;
+  justify-content: center;
 }
 
 .footer_title {
