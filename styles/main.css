@@ -313,6 +313,8 @@ form {
 #name {
   border: none;
   border-bottom: 1px solid #000;
+  font-size: 1rem;
+  font-family: "Montserrat";
 }
 #name::-moz-placeholder {
   font-family: "Montserrat";
@@ -326,6 +328,8 @@ form {
 input {
   margin-bottom: 0.8rem;
   margin-right: 0.3rem;
+  outline: none;
+  border: 0;
 }
 
 /* Info */

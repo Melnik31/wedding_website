@@ -316,10 +316,14 @@ form{
     }
     border: none;
     border-bottom: 1px solid $black;
+    font-size: 1rem;
+    font-family: 'Montserrat';
 }
 input{
     margin-bottom: 0.8rem;
     margin-right: 0.3rem;
+    outline: none;
+    border: 0;
 }
 
 /* Info */
