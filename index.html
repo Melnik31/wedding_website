@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <title>Anastasia & Daniil</title>
     <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
 </head>
@@ -13,18 +14,18 @@
     </nav>
     <main>
         <div class="offer">
-            <img src="img/left_leaf.png" alt="leaf" class="left_leaf">
-            <div class="offer_wrap">
+            <img src="img/left_leaf.png" alt="leaf" class="left_leaf" data-aos="fade-right">
+            <div class="offer_wrap" data-aos="fade-down">
                 <p class="offer_text">01.06.2024</p>
-                <h1 class="title">Anastasiya  <br> & <br> DANILA</h1>
+                <h1 class="title" >Anastasiya  <br> & <br> DANILA</h1>
             </div>
         </div>
-        <img src="img/leaf_offer.png" alt="" class="leaf_right">
-        <img src="img/main_img.jpg" alt="" class="offer_img">
+        <img src="img/leaf_offer.png" alt="" class="leaf_right" data-aos="fade-left">
+        <img src="img/main_img.jpg" alt="" class="offer_img" data-aos="fade-up">
         
         <div class="count_wrap">
-            <h2 class="title">До свадьбы осталось:</h2>
-            <div class="countdown">
+            <h2 class="title" data-aos="fade-down">До свадьбы осталось:</h2>
+            <div class="countdown" data-aos="fade-up">
                 <div class="time">
                     <h2 id="days"></h2>
                     <h3>дней</h3>
@@ -44,8 +45,8 @@
             </div>
         </div>
         <section class="about">
-            <h2 class="title">Дорогие друзья<br> и родные  </h2>
-            <div class="about_text">
+            <h2 class="title" data-aos="fade-right">Дорогие друзья<br> и родные  </h2>
+            <div class="about_text" data-aos="fade-right">
                 <p>
                     Вы знаете, что совсем скоро наступит самый важный день<br> 
                     в нашей жизни - день свадьбы.
@@ -57,25 +58,25 @@
                     Ниже вы найдете всю подробную информацию о нашем мероприятии. 
                 </p>   
             </div> 
-            <img src="/img/leaf.png" alt="" class="leaf">
+            <img src="/img/leaf.png" alt="" class="leaf" data-aos="fade-left">
 
         </section>
         <section class="time_place">
-            <h1 class="title">время и место</h1>
+            <h1 class="title" data-aos="fade-down">время и место</h1>
             <div class="flex_wrap">
                 <div class="flex_1">
-                    <p class="text_l">когда?</p>
-                    <p class="text bold">01 июня <br><span>2024</span></p>
+                    <p class="text_l" data-aos="fade-right">когда?</p>
+                    <p class="text bold" data-aos="fade-left">01 июня <br><span>2024</span></p>
                 </div>
                 <div class="flex_2">
-                    <p class="text_l">где?</p>
-                    <p class="text">Загородный комплекс<br> “Дом охотника и рыбака”
+                    <p class="text_l" data-aos="fade-right">где?</p>
+                    <p class="text" data-aos="fade-left">Загородный комплекс<br> “Дом охотника и рыбака”
                     </p>
                 </div>
             </div>
-            <p class="text_l bottom">aNASTASiya & dANIla</p>
+            <p class="text_l bottom" data-aos="fade-up">aNASTASiya & dANIla</p>
         </section>
-        <section class="program">
+        <section class="program" data-aos="fade-right">
             <h2 class="title">Программа дня</h2>
             <div class="flex_block">
                 <p class="prog_text">16:00</p>
@@ -104,7 +105,8 @@
                 <p class="prog_text">Салют</p>
             </div>
         </section>
-        <section class="dress_code">
+        <img src="img/dress_code_img.svg" alt="leaf" class="leaf" data-aos="fade-left">
+        <section class="dress_code" data-aos="fade-right">
             <h1 class="title">Дресс-код</h1>
             <div class="flex_wrap">
                 <p class="text">
@@ -126,16 +128,17 @@
             <p class="text gray_t">(а также другие пастельные цвета)</p>
         </section>
         <section class="form">
-            <div class="flex_wrap">
+            <img src="img/form_imf.png" alt="" class="leaf" data-aos="fade-left">
+            <div class="flex_wrap" data-aos="fade-down">
                 <h2 class="title">Анкета гостя</h2>
                 <p class="text">
                 Ваши ответы на вопросы очень 
                 помогут нам при организации 
                 свадьбы. 
                 </p>
-            <p class="text">Будем ждать ответ до <span>20.05.2024</span></p>
+                <p class="text">Будем ждать ответ до <span>20.05.2024</span></p>
             </div>
-            <form action="" id="guests_form">
+            <form action="" id="guests_form" data-aos="fade-right">
                 <label for="name" class="label">Ваше имя и фамилия</label>
                 <input type="text" name="name" id="name" placeholder="Имя и фамилия" required />
                 <label for="food" id="food_label" class="label">Что вы предпочитаете на горячее?
@@ -156,7 +159,7 @@
                 <button type="button" onclick="SubForm()">Отправить<img src="img/sub_vector.svg" alt=""></button>
             </form>
         </section>
-        <section class="info">
+        <section class="info" data-aos="fade-left">
             <h2 class="title">Важная информация</h2>
             <p class="text">
                 По всем возникающим вопросам
@@ -168,7 +171,8 @@
             <a href="tel:+ 375 (29) 538-12-89" class="tel">+ 375 (29) 538-12-89</a>
         </section>
         <footer>
-            <div class="footer_img">
+            <img src="img/info_img.png" alt="leaf" class="leaf" data-aos="fade-right">
+            <div class="footer_img" data-aos="fade-up">
                 <img src="img/photo+shadow.jpg" alt="see yo" >
                 <h2 class="title footer_title">
                     До скорой встречи! 
@@ -181,5 +185,12 @@
     </main>
 
     <script src="script.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init({
+        offset: 400,
+        duration: 1000
+    });
+  </script>
 </body>
 </html> 

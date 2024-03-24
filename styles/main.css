@@ -131,19 +131,18 @@ main {
   color: #103025;
   margin: 3.75rem 0 0.9rem;
 }
+.about .leaf {
+  position: absolute;
+  right: 0;
+  top: 60rem;
+  width: 165px;
+  z-index: -9;
+}
 
 .about_text {
   display: flex;
   flex-direction: column;
   gap: 1.2rem;
-}
-
-.leaf {
-  position: absolute;
-  right: 0;
-  top: 62rem;
-  width: 165px;
-  z-index: -9;
 }
 
 /* Time and place */
@@ -214,6 +213,13 @@ main {
   text-align: left;
   padding-top: 0.9rem;
   gap: 15px;
+}
+
+.leaf {
+  position: absolute;
+  top: 125rem;
+  right: 0;
+  z-index: -9;
 }
 
 /* Dress code */
@@ -300,6 +306,9 @@ main {
   padding: 1.06rem 0;
   border-radius: 0.6rem;
 }
+.form .leaf {
+  top: 148rem;
+}
 
 .label {
   margin: 1.8rem 0 0.9rem;
@@ -315,6 +324,7 @@ form {
   border-bottom: 1px solid #000;
   font-size: 1rem;
   font-family: "Montserrat";
+  -webkit-appearance: none;
 }
 #name::-moz-placeholder {
   font-family: "Montserrat";
@@ -329,8 +339,6 @@ input {
   margin-bottom: 0.8rem;
   margin-right: 0.3rem;
   outline: none;
-  border: 0;
-  -webkit-appearance: none;
 }
 
 /* Info */
@@ -354,6 +362,11 @@ input {
 /* Footer */
 footer {
   margin: 0 auto 3.25rem;
+}
+footer .leaf {
+  left: 0;
+  top: 205rem;
+  z-index: -9;
 }
 
 .footer_img {
