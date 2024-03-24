@@ -307,7 +307,9 @@ main {
   border-radius: 0.6rem;
 }
 .form .leaf {
-  top: 148rem;
+  top: 150rem;
+  width: 150px;
+  z-index: -9;
 }
 
 .label {
@@ -365,8 +367,9 @@ footer {
 }
 footer .leaf {
   left: 0;
-  top: 205rem;
+  top: 208rem;
   z-index: -9;
+  width: 150px;
 }
 
 .footer_img {
