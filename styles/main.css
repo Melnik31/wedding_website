@@ -307,8 +307,8 @@ main {
   border-radius: 0.6rem;
 }
 .form .leaf {
-  top: 150rem;
-  width: 150px;
+  top: 153rem;
+  width: 110px;
   z-index: -9;
 }
 
@@ -358,7 +358,6 @@ input {
   font-size: 1.06rem;
   color: #000;
   font-family: "Viaoda Libre";
-  text-decoration: underline;
 }
 
 /* Footer */
@@ -367,7 +366,7 @@ footer {
 }
 footer .leaf {
   left: 0;
-  top: 208rem;
+  top: 210rem;
   z-index: -9;
   width: 150px;
 }
