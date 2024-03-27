@@ -312,6 +312,10 @@ main {
   z-index: -9;
 }
 
+#food_label .gray {
+  margin-bottom: 0.9rem;
+}
+
 .label {
   margin: 1.8rem 0 0.9rem;
 }
@@ -393,4 +397,43 @@ footer .leaf {
   font-family: "Viaoda Libre";
   text-transform: uppercase;
   font-size: 0.6rem;
+}
+
+/* Form Sub page */
+#sub {
+  text-align: center;
+  position: relative;
+}
+#sub .text {
+  text-transform: uppercase;
+  font-size: 0.6rem;
+  margin-top: 2rem;
+}
+#sub .s_leaf {
+  position: absolute;
+  right: 0;
+  z-index: -9;
+}
+#sub .hero_wrap {
+  margin-top: 5.5rem;
+  margin-bottom: 4.6rem;
+  display: flex;
+  flex-direction: column;
+}
+#sub .hero_wrap .back_btn {
+  background-color: #103025;
+  border: none;
+  color: #FFFFFF;
+  padding: 0.8rem 0;
+  border-radius: 0.6rem;
+  width: 14.3rem;
+  margin: 0 auto;
+}
+#sub .h_text {
+  padding-bottom: 1.25rem;
+}
+#sub .b_leaf {
+  position: absolute;
+  left: 0;
+  top: 10rem;
 }/*# sourceMappingURL=main.css.map */

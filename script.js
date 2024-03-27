@@ -33,7 +33,7 @@ function SubForm (){
         type:'post',
         data:$("#guests_form").serializeArray(),
         success: function(){
-          alert("Form Data Submitted :)")
+          window.location.href = "form_sub.html"
         },
         error: function(){
           alert("There was an error :(")
